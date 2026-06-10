@@ -28,7 +28,7 @@ export default function Hero() {
         >
           <div className="relative w-36 h-36 sm:w-44 sm:h-44">
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-cyan-400 to-violet-500 p-[3px] glow-ring">
-              <div className="w-full h-full rounded-full overflow-hidden bg-slate-900">
+              <div className="relative w-full h-full rounded-full overflow-hidden bg-slate-900">
                 <Image
                   src="/profile.jpeg"
                   alt="Lucas Hauptmann Pereira"

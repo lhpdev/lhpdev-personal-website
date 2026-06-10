@@ -12,13 +12,13 @@ interface SkillGroup {
 const skillGroups: SkillGroup[] = [
   {
     label: 'Backend',
-    skills: ['Ruby', 'Ruby on Rails', 'Sidekiq', 'GraphQL', 'Rest API', 'SQL', 'API Design', 'API Integration'],
+    skills: ['Ruby', 'Ruby on Rails', 'Sidekiq', 'GraphQL', 'Rest API', 'SQL', 'API Design', 'API Integration', 'REST Api'],
     badgeClass: 'bg-cyan-50 dark:bg-cyan-900/20 text-cyan-700 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-800/50 hover:bg-cyan-100 dark:hover:bg-cyan-900/40',
     labelClass: 'text-cyan-600 dark:text-cyan-400',
   },
   {
     label: 'Frontend',
-    skills: ['React.js', 'JavaScript', 'ES6', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'Stimulus', 'jQuery', 'Redux'],
+    skills: ['React.js', 'JavaScript', 'EcmaScript', 'Typescript', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'Stimulus', 'jQuery', 'Redux', 'Hotwire'],
     badgeClass: 'bg-violet-50 dark:bg-violet-900/20 text-violet-700 dark:text-violet-300 border border-violet-200 dark:border-violet-800/50 hover:bg-violet-100 dark:hover:bg-violet-900/40',
     labelClass: 'text-violet-600 dark:text-violet-400',
   },
@@ -30,7 +30,7 @@ const skillGroups: SkillGroup[] = [
   },
   {
     label: 'Testing',
-    skills: ['Rspec', 'Cucumber', 'Jest', 'Enzyme', 'Automated Testing'],
+    skills: ['Rspec', 'Cucumber', 'Capybara', 'Jest', 'Enzyme', 'Automated Testing'],
     badgeClass: 'bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800/50 hover:bg-amber-100 dark:hover:bg-amber-900/40',
     labelClass: 'text-amber-600 dark:text-amber-400',
   },
@@ -42,7 +42,7 @@ const skillGroups: SkillGroup[] = [
   },
   {
     label: 'AI & Tools',
-    skills: ['Windsurf', 'CodeRabbit', 'Agile Development'],
+    skills: ['Claude Code', 'Windsurf', 'CodeRabbit', 'Agile Development'],
     badgeClass: 'bg-rose-50 dark:bg-rose-900/20 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-800/50 hover:bg-rose-100 dark:hover:bg-rose-900/40',
     labelClass: 'text-rose-600 dark:text-rose-400',
   },
